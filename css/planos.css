@@ -1,0 +1,53 @@
+.default .light .values{
+    background-color:#eee;
+    border-top:1px solid #999;
+    border:1px solid #f7f7f7;
+}
+.values {
+    margin:auto;
+    max-width:1140px;
+}
+.values-area {
+    width:260px;
+    height:100%;
+    min-height:300px;
+    display:inline-block;
+    background-color:#fff;
+    margin-right:10px;
+
+}
+.value-desc p {
+    font-size:14px;
+    color:#999;
+    margin-top:5px;
+    padding:5px;
+    display:flex;
+    justify-content:center;
+}
+.value h1 {
+    font-size:35px;
+    color:#000;
+    margin-top:5px;
+    display:flex;
+    justify-content:center;
+}
+.value h4 {
+    font-size:16px;
+    color:#000;
+    margin-top:5px;
+    PADDING-BOTTOM:5PX;
+    display:flex;
+    justify-content:center;
+}
+.value-desc .button {
+    justify-content:center;
+    display:flex;
+    margin:65px;
+    background-color:#555;
+}
+.value-desc .button:hover {
+    justify-content:center;
+    display:flex;
+    margin:65px;
+    background-color:#b28756;
+}

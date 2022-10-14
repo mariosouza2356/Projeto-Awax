@@ -1,0 +1,43 @@
+.section-some-facts {
+    display:flex;
+}
+.section-some-facts h1{
+    color:#b28756;
+    font-size:60px;
+    border-bottom:4px solid #b28756;
+}
+.section-some {
+    flex:1;
+    text-align:center;
+    padding:15px;
+}
+.section-some h4 {
+    margin-top:20px;
+    text-transform:uppercase;
+    font-size:25px;
+    color:#fff;
+}
+.section-some p {
+    margin-top:10px;
+    font-size:13px;
+    color:#999;
+}
+
+
+@media screen and (max-width:1024px) {
+    .section-aboutus {
+        margin:10px;
+        text-align:center;
+        flex-wrap:wrap;
+    }
+    .aboutus--left{
+        padding:10px;
+    }
+    .aboutus--right{
+        padding-right:20px;
+        margin:auto;
+    }
+    .button {
+        margin:2em;
+    }
+}

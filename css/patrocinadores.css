@@ -1,0 +1,21 @@
+.sponsors-area {
+    border-top:1px solid #999;
+}
+.sponsors {
+    margin:auto;
+    display:flex;
+    width:1140px;
+    padding:10px;
+}
+.sponsors img {
+    margin:auto;
+    padding-top:30px;
+    
+}
+
+@media screen and (max-width:1024px) {
+    .sponsors-area {
+        display:flex;
+        justify-content:space-around;
+    }
+}

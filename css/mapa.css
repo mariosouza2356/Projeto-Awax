@@ -1,0 +1,42 @@
+.section-map {
+    background-image:url('../imagens/mapa.jpg');
+    background-size:cover;
+    background-position:center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.map-area {
+    width:100vw;
+    max-width:1140px;
+    margin:auto;
+}
+.map-area--item {
+    width:50%;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    align-items:center;
+    color:#999;
+    background-color:#fff;
+}
+.item-img {
+    width:30px;
+    height:30px;
+    justify-content:center;
+    align-items:center;
+    border-radius:15px;
+    display:inline-flex;
+    background-color:#999;
+    margin-left:10px;
+    margin-right:10px;
+}
+.item-img img {
+    width:15px;
+    height:auto;
+}
+
+@media screen and (max-width:1024px) {
+    .map-area {
+        padding:2em;
+    }
+}

@@ -1,0 +1,39 @@
+.premium-area {
+    display:flex;
+}
+.premium-img {
+    padding-top:50px;
+    padding-right:100px;
+}
+.sub-desc {
+    display:flex;
+}
+.sub-desc img {
+    width:36px;
+    height:36px;
+    margin-top:46px;
+    margin-right:20px;
+}
+.sub-desc .text-desc {
+    margin-top:48px;
+}
+.sub-desc .text-desc p {
+    color:#999;
+    padding:8px;
+}
+.button-get a{
+    justify-content:center;
+    display:flex;
+    margin:auto;
+    width:180px;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .premium-area {
+        padding:2em;
+    }
+}

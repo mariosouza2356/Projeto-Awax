@@ -1,0 +1,19 @@
+@import url(./css/header.css);
+@import url(./css/banner.css);
+@import url(./css/default-light.css);
+@import url(./css/servicos.css);
+@import url(./css/projetos.css);
+@import url(./css/team.css);
+@import url(./css/cliente.css);
+@import url(./css/patrocinadores.css);
+@import url(./css/planos.css);
+@import url(./css/premium.css);
+@import url(./css/sobre.css);
+@import url(./css/redes-contatos.css);
+@import url(./css/mensagem-area.css);
+@import url(./css/mapa.css);
+@import url(./css/rodape.css);
+
+body {
+    margin:0;
+}

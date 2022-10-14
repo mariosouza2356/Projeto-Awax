@@ -1,0 +1,23 @@
+.section-body .redes {
+    display:flex;
+    justify-content:center;
+    margin:auto;
+}
+.section-body .redes img{
+    width:40px;
+    height:40px;
+}
+.section-body .redes a{
+    text-decoration:none;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:30px;
+    
+}
+.section-body .redes p {
+    font-size:18px;
+    font-weight:bold;
+    color:#999;
+    margin-top:40px;
+    margin-left:10px;
+}

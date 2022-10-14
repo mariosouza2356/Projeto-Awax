@@ -1,0 +1,120 @@
+footer {
+    padding:20px;
+    padding-top:30px;
+    margin-right:10px;
+    background-color:#000;
+}
+.footer-area {
+    display:flex;
+}
+.footer-rede {
+    width:400px;
+    height:200px;
+    justify-content:start;
+    margin-right:150px;
+}
+.footer-rede2 {
+    margin-top:100px;
+}
+.footer-rede2 h3 {
+    display:flex;
+    color:#fff;
+}
+.footer-rede img{
+    display:flex;
+    align-items:center;
+}
+.item-img {
+    width:30px;
+    height:30px;
+    justify-content:center;
+    align-items:center;
+    border-radius:15px;
+    display:inline-flex;
+    background-color:#999;
+    margin-left:10px;
+    margin-right:10px;
+}
+.item-img:hover {
+    width:30px;
+    height:30px;
+    justify-content:center;
+    align-items:center;
+    border-radius:15px;
+    display:inline-flex;
+    background-color:#999;
+    margin-left:10px;
+    margin-right:10px;
+    background-color:#b28756;
+}
+.footer-rede img {
+    width:15px;
+    height:auto;
+}
+.footer-text {
+    margin-right:150px;
+    width:500px;
+    color:#fff;
+}
+.subscribe {
+    height:250px;
+    width:auto;
+    padding:30px;
+    justify-content:center;
+    background-color:#555;
+}
+.inscricao {
+    text-align:center;
+    width:250px;
+    padding:16px;
+    background-color:#555;
+    color:#fff;
+    border:0;
+    border-bottom:1px solid;
+}
+.inscricao::placeholder {
+    color:#fff;
+}
+.botao {
+    display:flex;
+    justify-content:center;
+}
+
+
+@media screen and (max-width:1024px) {
+    .footer-area {
+        display:flex;
+        justify-content:space-around;
+    }
+    .footer-rede{
+        display:none;
+    }
+    .footer-rede1 {
+        display:none;
+    }
+    .footer-rede2 {
+        margin:10px;
+    }
+    .footer-text {
+        display:flex;
+        margin-right:0;
+    }
+    .subscribe {
+        height:auto;
+        width:auto;
+        padding:30px;
+        justify-content:center;
+    }
+    .inscricao {
+        text-align:center;
+        width:250px;
+        padding:16px;
+        background-color:#555;
+        color:#fff;
+        border:0;
+        border-bottom:1px solid;
+    }
+    .inscricao::placeholder {
+        color:#fff;
+    }
+}

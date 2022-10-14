@@ -1,0 +1,44 @@
+.message-area {
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    width:700px;
+    height:400px;
+    flex-wrap:wrap;
+}
+.message-area .message-1 input {
+    height:40px;
+    width:330px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-bottom:40px;
+    border:none;
+    border-bottom:3px solid #999;
+}
+.message-area .message-2 input {
+    height:40px;
+    width:680px;
+    word-wrap: break-word;
+    margin-top:20px;
+    margin-bottom:40px;
+    padding:20px;
+    border:none;
+    border-bottom:3px solid #999;
+   
+}
+::-webkit-input-placeholder {
+    color:#555;
+    font-weight:bold;
+    font-size:18px;
+}
+.message-2 .button-1{
+    justify-content:center;
+    display:flex;
+    margin:auto;
+    width:180px;
+    margin-top:10px;
+    padding-bottom:20px;
+}
+@media screen and (max-width:1024px) {
+
+}

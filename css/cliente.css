@@ -1,0 +1,31 @@
+.slidearea-client {
+    width:160px;
+    height:auto;
+    margin:auto;
+}
+.section-body .th h4 {
+    font-size:16px;
+    padding-top:50px;
+    color:#999;
+    max-width:650px;
+    margin:auto;
+}
+.section-body .sliders-poiters {
+    padding-top:80px;
+    height:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.section-body .pointer {
+    width:15px;
+    height:15px;
+    border:2px solid #b28756;
+    border-radius:8px;
+    margin-left:5px;
+    margin-right:5px;
+    cursor:pointer;
+}
+.section-body .pointer.active {
+    background-color:#b28756;
+}
