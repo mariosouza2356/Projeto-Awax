@@ -88,3 +88,20 @@
 .section-team-social a:hover {
     background-color:#b28756;
 }
+@media screen and (max-width:768px) {
+    .slide1 {
+        display:flex;
+        flex-direction: column;
+        padding-left:15em;
+    }
+    .slide__tean {
+        margin:20px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .slide1 {
+        padding-left:3em;
+    }
+}

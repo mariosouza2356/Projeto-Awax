@@ -19,3 +19,23 @@
         justify-content:space-around;
     }
 }
+
+@media screen and (max-width:768px){
+    .sponsors-area {
+     padding:10px;  
+    }
+}
+
+
+@media screen and (max-width:425px)  {
+    .sponsors-area {
+        display:flex;
+        flex-wrap:wrap;
+    } 
+    .sponsors {
+        display:flex;
+        flex-wrap:wrap;
+        padding:30px;
+        margin:10px;
+    }
+}

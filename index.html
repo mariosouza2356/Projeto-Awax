@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="reset.css" />
         <link rel="stylesheet" type="text/css" href="template.css" />
         <title>Awax</title>
     </head>
@@ -11,44 +10,44 @@
         <header>
             <div class="header">
                 <div class="menu__mobile">
-                    <input type="checkbox" id="menu" class="container__botao">
+                    <!-- menu clicavel mobile-fisrt -->
+                    <input type="checkbox" id="menu" class="menu__botao">
                     <label for="menu">
-                    <span class="cabecalho__menu-amburguer container__imagem"></span>
-                    <ul>
-                        <li class="active">
-                            <a href="#">Home</a>
+                        <span class="click__menu container__imagem"></span>
+                    </label>
+                    <ul class="menu__lista">
+                        <li class="menu__mobile-item">
+                            <a href="#" class="menu__mobile-link">Home</a>
                         </li>
-                        <li>
-                            <a href="#">About us</a>
+                        <li class="menu__mobile-item">
+                            <a href="#" class="menu__mobile-link">About us</a>
                         </li>
-                        <li>
-                            <a href="#">Services</a>
+                        <li class="menu__mobile-item">
+                            <a href="#" class="menu__mobile-link">Services</a>
                         </li>
-                        <li>
-                            <a href="#">Our Prejects</a>
+                        <li class="menu__mobile-item">
+                            <a href="#" class="menu__mobile-link">Our Prejects</a>
                         </li>
-                        <li>
-                            <a href="#">Our Team</a>
+                        <li class="menu__mobile-item">
+                            <a href="#" class="menu__mobile-link">Our Team</a>
                         </li>
-                        <li>
-                            <a href="#">Happy Clients</a>
+                        <li class="menu__mobile-item">
+                            <a href="#" class="menu__mobile-link">Happy Clients</a>
                         </li>
-                        <li>
-                            <a href="#">price</a>
+                        <li class="menu__mobile-item">
+                            <a href="#" class="menu__mobile-link">price</a>
                         </li>
-                        <li>
-                            <a href="#">Contact us</a>
+                        <li class="menu__mobile-item">
+                            <a href="#" class="menu__mobile-link">Contact us</a>
                         </li>
                     </ul>
                 </div>
-                </label>
                 <div class="logo">
                     <div class="logoimg"></div>
                 </div>
                 <div class="menu">
                     
-                    <nav class="container__mobile"> 
-                         <!-- menu clicavel mobile-fisrt -->
+                    <nav> 
                         <ul>
                             <li class="active">
                                 <a href="#">Home</a>
@@ -84,17 +83,12 @@
                 <div class="sliders">
                     <div class="slide">
                         <div class="slidearea">
-                            <h1>Design is about<br/><span>comunication</span></h1>
+                            <h1 class="titulo__principal">Design is about<br/><span class="titulo__principal">comunication</span></h1>
                             <h2>Call Us: +00 0 1234 5678</h2>
                             <a href="" class="button">Get in touch!</a>
                         </div>
                     </div>
-                    <div class="slide">
-                        00002
-                    </div>
-                    <div class="slide">
-                        00003
-                    </div>
+                   
                 </div>
             </section>
             <section class="default light">
@@ -265,14 +259,15 @@
             </div>
         </section>
         <section class="default dark bg-team">
-            <div class="section-team-area">
-                <div class="section-title">OUR TEAM</div>
+            <div class="section-title">OUR TEAM</div>
                 <div class="section-desc">OUR CO-WORKES</div>
-                <div class="section-body">
+            <div class="section-team-area">
+                
+                <div class="section-body tean__pessoas">
                     <div class="section-tean">
-                        <div class="sliders" style="margin-left:0;">
-                            <div class="slide">
-                                <div class="slidearea">
+                        <div class="sliders slide1" style="margin-left:0;">
+                            <div class="slide slide__tean">
+                                <div class="slidearea pessoa">
                                 <img class="section-team-avatar" src="./imagens/mulher1.png" />
                                 <div class="section-team-name">Jane Doe</div>
                                     <div class="section-team-role">Master Mind</div>
@@ -284,8 +279,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide">
-                                <div class="slidearea">
+                            <div class="slide slide__tean">
+                                <div class="slidearea pessoa">
                                     <img class="section-team-avatar" src="./imagens/homem1.png" />
                                     <div class="section-team-name">Mike Chiller</div>
                                     <div class="section-team-role">Create head</div>
@@ -297,8 +292,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide">
-                                <div class="slidearea">
+                            <div class="slide slide__tean">
+                                <div class="slidearea pessoa">
                                     <img class="section-team-avatar" src="./imagens/mulher2.png" />
                                     <div class="section-team-name">Anna Jhons</div>
                                     <div class="section-team-role">Tecnical Lead</div>
@@ -329,10 +324,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="th"><h4> = C:\Users\Mario\AppData\Local\Temp\IPMx2\Lang\CHIP\CSY\ChipsetCSY.dll
+                <div class="th"><h4 class="th_texto"> = C:\Users\Mario\AppData\Local\Temp\IPMx2\Lang\CHIP\CSY\ChipsetCSY.dll
                     Found DLL = C:\Users\Mario\AppData\Local\Temp\IPMx2\Lang\CHIP\DAN\ChipsetDAN.dll
-                    Found DLL = C:\Users\Mario\AppData\Local\Temp\IPMx2\Lang\CHIP\DEU\ChipsetDEU.dll
-                    Found DLL = C:\Users\Mario\AppData\Local\Temp\IPMx2\Lang\CHIP\ELL\ChipsetELL</h4></div>
+                    Found DLL = C:\Users\Mario\AppData\Local\Temp\IPMx2\Lang\CHIP\DEU\ChipsetDEU.dll</h4></div>
                     <div class="sliders-poiters">
                         <div class="pointer active"></div>
                         <div class="pointer"></div>
@@ -489,12 +483,37 @@
         <section class="default light">
             <div class="section-body">
                <dvi class="redes">
-                <a href=""><img src="./icones/share.png" /></a><p>TELL ABOUT US:</p>
-                <a href=""><img src="./icones/twitter1.png" /></a><p>152</p>
-                <a href=""><img src="./icones/LinkedIn1.png" /></a><p>31</p>
-                <a href=""><img src="./icones/facebook1.png" /></a><p>165</p>
-                <a href=""><img src="./icones/googleplus1.png" /></a><p>22</p>
-                <a href=""><img src="./icones/pinterest1.png" /></a><p>165</p>
+                <div class="midias">
+                    <a href="">
+                        <img src="./icones/share.png" />
+                    </a>
+                    <p>TELL ABOUT US:</p>
+                </div>
+                <div class="midias">
+                    <a href=""><img src="./icones/twitter1.png" />
+                    </a>
+                    <p>152</p>
+                </div>
+                <div class="midias">
+                    <a href=""><img src="./icones/LinkedIn1.png" />
+                    </a>
+                    <p>31</p>
+                </div>
+                <div class="midias">
+                    <a href=""><img src="./icones/facebook1.png" />
+                    </a>
+                    <p>165</p>
+                </div>
+                <div class="midias">
+                    <a href=""><img src="./icones/googleplus1.png" />
+                    </a>
+                    <p>22</p>
+                </div>
+                <div class="midias">
+                    <a href=""><img src="./icones/pinterest1.png" />
+                    </a>
+                    <p>165</p>
+                </div>
                </dvi>
             </div><br/><br/><br/><hr/>
         </section>
@@ -512,13 +531,13 @@
                             <div class="message-2">
                                 <input type="text" name="text" placeholder="SUBJECT" /><br/>
                                 <input type="text" name="text" placeholder="MESSAGE"  />
-                                <div class="button-1 botao2">
-                                    <a href="" class="button">SEND MESSAGE</a>
-                                </div>
                             </div>
                         </form>
                     </div>
                 </div>
+            </div>
+            <div class="button-1 botao2">
+                <a href="" class="button">SEND MESSAGE</a>
             </div>
         </section>
         <section class="section-map">

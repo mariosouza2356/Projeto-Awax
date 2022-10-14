@@ -29,3 +29,13 @@
 .section-body .pointer.active {
     background-color:#b28756;
 }
+
+
+
+@media screen and (max-width:425px) {
+    .th_texto {
+        display:flex;
+        flex-wrap:wrap;
+        font-size:12px;
+    }
+}

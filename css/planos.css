@@ -51,3 +51,21 @@
     margin:65px;
     background-color:#b28756;
 }
+
+@media screen and (max-width:768px) {
+    .values {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .values-area {
+        margin:20px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .section-some-facts {
+        display:flex;
+        flex-wrap:wrap;
+    }
+}

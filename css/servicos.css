@@ -28,3 +28,10 @@
         justify-content:space-around;
     }
 }
+
+@media screen and (max-width:425px)  {
+    .section-services {
+        display:flex;
+        flex-wrap:wrap;
+    }
+}

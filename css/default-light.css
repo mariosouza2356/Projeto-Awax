@@ -52,3 +52,11 @@
 .pp {
     font-size:18px;
 }
+
+@media screen and (max-width:425px) {
+    .pp {
+        display:flex;
+        font-size:12px;
+        flex-wrap:wrap;
+    }
+}
