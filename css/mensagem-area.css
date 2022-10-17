@@ -39,24 +39,24 @@
     margin-top:10px;
     padding-bottom:20px;
 }
-
+.botao2 {
+    padding:20px;
+    text-align: center;
+}
 
 
 @media screen and (max-width:425px) {
-    .section-menssage{
-        display:flex;
-        flex-wrap:wrap;
-        font-size:10px;
+    .message-area {
+       display:flex;
     }
-   
-    .message-1,
-    .message-2 {
-        margin-left:3em;
-        width:40%;
-    }
-    .button-1 {
+    .formulario,
+    .message-1 {
         display:flex;
-        justify-content: center;
-        margin-top:60px;
+        flex-direction: column;
+    }  
+    .mensagem-1 {
+        height:40px;
+    width:100px;
     }
 }
+   

@@ -42,7 +42,7 @@
     flex:1;
 }
 .section-aboutus .aboutus--right {
-    width:500px;
+    
     text-align:center;
 }
 .section-aboutus .aboutus--right img {
@@ -58,5 +58,11 @@
         display:flex;
         font-size:12px;
         flex-wrap:wrap;
+    }
+    .aboutus--right {
+        width:425px;
+    }
+    .immg{
+        width:150px;
     }
 }
